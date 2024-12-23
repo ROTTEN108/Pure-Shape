@@ -73,22 +73,22 @@ namespace Radiant_Knight
                 {
                     if (Language.Language.CurrentLanguage() == Language.LanguageCode.ZH)
                     {
-                        text += "\n\n[纯粹之形]\n如果受伤，已有的神圣力量层数清零。\n满层神圣力量时，可以点按梦之钉消耗所有力量为下次体术充能，若下次格挡成功/额外冲刺三次及以上/释放卷须且解锁对应绝技，则释放该绝技。";
+                        text += "\n\n[纯粹之形]\n如果受伤，已有的神圣力量层数清零。\n满层神圣力量时，可以点按梦之钉消耗所有力量为下次体术充能，若下次格挡成功/开始连续冲刺/释放卷须且解锁对应绝技，则释放该绝技。";
                     }
                     else
                     {
-                        text += "[Pure Shape] If injured, the existing levels of Divine power are eliminated. When full of Divine power, you can tap the Dream Nail to expend all power to recharge the next body art, if the next block is successful/additional sprint three or more times/release the tendrils and unlock the corresponding trick, release the trick.";
+                        text += "\n\n[Pure Shape] \nIf injured, the existing levels of Divine Power are cleared. \nWhen full of Divine power, you can tap the Dream Nail to expend all power to recharge the next body art. If the next block is successful/start a continuous sprint/release tendrils and unlock the corresponding trick, release the trick.";
                     }
                 }
                 if (key == "INV_DESC_DREAMNAIL_B")
                 {
                     if (Language.Language.CurrentLanguage() == Language.LanguageCode.ZH)
                     {
-                        text += "\n\n[纯粹之形]\n如果受伤，已有的神圣力量层数清零。\n满层神圣力量时，可以点按梦之钉消耗所有力量为下次体术充能，若下次格挡成功/额外冲刺三次及以上/释放卷须且解锁对应绝技，则释放该绝技。";
+                        text += "\n\n[纯粹之形]\n如果受伤，已有的神圣力量层数清零。\n满层神圣力量时，可以点按梦之钉消耗所有力量为下次体术充能，若下次格挡成功/开始连续冲刺/释放卷须且解锁对应绝技，则释放该绝技。";
                     }
                     else
                     {
-                        text += "[Pure Shape] If injured, the existing levels of Divine power are eliminated. When full of Divine power, you can tap the Dream Nail to expend all power to recharge the next body art, if the next block is successful/additional sprint three or more times/release the tendrils and unlock the corresponding trick, release the trick.";
+                        text += "\n\n[Pure Shape] \nIf injured, the existing levels of Divine Power are cleared. \nWhen full of Divine power, you can tap the Dream Nail to expend all power to recharge the next body art. If the next block is successful/start a continuous sprint/release tendrils and unlock the corresponding trick, release the trick.";
                     }
                 }
                 if (key == "INV_DESC_SPELL_FIREBALL2")
